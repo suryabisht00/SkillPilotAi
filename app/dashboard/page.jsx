@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { getCookie } from '../../../utils/cookies';
+import { getCookie } from '../../utils/cookies';
 import { handleLogout } from '../api/auth/clientLogout';
 
 export default function Dashboard() {

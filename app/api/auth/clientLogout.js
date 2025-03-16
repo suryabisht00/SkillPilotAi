@@ -1,4 +1,4 @@
-import { deleteCookie } from '../../../../utils/cookies';
+import { deleteCookie } from '../../../utils/cookies';
 
 export const handleLogout = (setAccount, router) => {
   deleteCookie('walletAddress');
